@@ -1,6 +1,6 @@
 export default function Project({ title, image, deployedLink, repoLink }) {
   return (
-    <div className="column is-one-third">
+    <div className="column is-half">
       <div className="card">
         <div className="card-image">
           <figure className="image is-4by3">

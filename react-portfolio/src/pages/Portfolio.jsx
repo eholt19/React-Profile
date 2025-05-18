@@ -29,13 +29,13 @@ const projects = [
 
 export default function Portfolio() {
   return (
-    <div>
+    <section className="section">
       <h2 className="title is-3">Portfolio</h2>
-      <div className="columns is-multiline">
+      <div className="columns is-multiline is-centered">
         {projects.map((project, idx) => (
           <Project key={idx} {...project} />
         ))}
       </div>
-    </div>
+    </section>
   );
 }

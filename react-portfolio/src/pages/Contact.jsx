@@ -26,7 +26,7 @@ export default function Contact() {
   return (
     <section className="section">
       <div className="columns is-centered">
-        <div className="column is-half">
+        <div className="column is-three-quarters">
           <h2 className="title is-3">Contact</h2>
           <form>
             <div className="field">

@@ -2,7 +2,7 @@ export default function Resume() {
   return (
     <section className="section" style={{ backgroundColor: 'lightyellow' }}>
       <div className="columns is-centered">
-        <div className="column is-half">
+        <div className="column is-three-quarters">
           <h2 className="title is-4">Resume</h2>
           <a href="/files/resume.pdf" download>Download My Resume</a>
           <h3 className="title is-5 mt-4">Proficiencies</h3>

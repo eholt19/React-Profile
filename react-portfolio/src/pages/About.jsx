@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section className="section">
       <div className="columns is-centered">
-        <div className="column is-two-thirds has-text-centered">
+        <div className="column is-three-quarters has-text-centered">
           <h2 className="title is-3">About Me</h2>
           <img
             src="/path-to-your-photo.jpg"
