@@ -12,7 +12,7 @@ const projects = [
 
 export default function Portfolio() {
   return (
-    <section>
+    <section className="section">
       <h2 className="title is-3">Portfolio</h2>
       <div className="columns is-multiline">
         {projects.map((project, idx) => (

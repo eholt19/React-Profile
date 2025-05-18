@@ -9,7 +9,7 @@ export default function Project({ title, image, deployedLink, repoLink }) {
             </a>
           </figure>
         </div>
-        <div className="card-content">
+        <div className="card-content has-text-centered">
           <p className="title is-5">{title}</p>
           <p>
             <a href={repoLink} target="_blank" rel="noreferrer">GitHub Repo</a>
