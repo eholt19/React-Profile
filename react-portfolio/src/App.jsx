@@ -11,7 +11,7 @@ export default function App() {
     <>
       <Header />
       <main className="section">
-        <div className="container">
+        <div className="container is-fluid">
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />
