@@ -1,6 +1,6 @@
 export default function Resume() {
   return (
-    <section className="section">
+    <section className="section" style={{ backgroundColor: 'lightyellow' }}>
       <div className="columns is-centered">
         <div className="column is-half">
           <h2 className="title is-4">Resume</h2>

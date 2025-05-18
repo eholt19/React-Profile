@@ -11,14 +11,14 @@ export default function App() {
     <>
       <Header />
       <main className="section">
-        <div className="container is-fluid">
+        {/* <div className="container is-fluid"> */}
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/resume" element={<Resume />} />
           </Routes>
-        </div>
+        {/* </div> */}
       </main>
       <Footer />
     </>

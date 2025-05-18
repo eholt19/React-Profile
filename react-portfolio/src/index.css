@@ -66,3 +66,23 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+
+/* test for layout limits */
+
+section.section {
+  border: 2px dashed red;
+}
+
+main {
+  border: 2px solid green;
+}
+
+.container {
+  border: 2px solid blue;
+}
+
+.columns {
+  border: 2px solid purple;
+}
