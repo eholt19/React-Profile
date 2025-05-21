@@ -5,7 +5,7 @@ export default function Resume() {
         <div className="content">
           <h2 className="title is-4">Resume</h2>
           <a
-            href="/Emily_Holt_Resume_Styled.pdf"
+            href="/resume.pdf"
             download
             className="button is-link is-outlined mb-4"
           >
