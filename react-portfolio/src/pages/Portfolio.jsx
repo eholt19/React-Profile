@@ -3,29 +3,39 @@ import Project from '../components/Project';
 const projects = [
   {
     title: 'Weather Dashboard',
-    image: '/images/weather.png',
+    image: '/weather.png',
     deployedLink: 'https://weather-dashboard-m4xd.onrender.com',
     repoLink: 'https://github.com/eholt19/Weather-Dashboard',
   },
   {
-    title: 'Weather Dashboard',
-    image: '/images/weather.png',
-    deployedLink: 'https://weather-dashboard-m4xd.onrender.com',
-    repoLink: 'https://github.com/eholt19/Weather-Dashboard',
+    title: 'Kanban Board',
+    image: '/kanban.png',
+    deployedLink: 'https://kanbanboard-suje.onrender.com',
+    repoLink: 'https://github.com/eholt19/KanbanBoard',
   },
   {
-    title: 'Fake Project 1',
-    image: '/images/placeholder.png',
-    deployedLink: '#',
-    repoLink: '#',
+    title: 'Employee Tracker',
+    image: '/employeeTracker.png',
+    repoLink: 'https://github.com/eholt19/Employee_Tracker',
   },
   {
-    title: 'Fake Project 2',
-    image: '/images/placeholder.png',
-    deployedLink: '#',
-    repoLink: '#',
+    title: 'Employee Payroll Tracker',
+    image: '/payroll.png',
+    deployed: 'Open Default Browser on index.html',
+  },
+  {
+    title: 'GitHub Actions',
+    image: '/gitHubActions.png',
+    deployedLink: 'https://githubactions-d5f5.onrender.com/',
+    repoLink: 'https://github.com/eholt19/GitHubActions',
+  },
+  {
+    title: 'Vehicle Builder',
+    image: '/vehicleBuilder.png',
+    deployed: 'Terminal',
   },
 ];
+
 
 export default function Portfolio() {
   return (
