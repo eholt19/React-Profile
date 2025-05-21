@@ -5,16 +5,37 @@ export default function Navigation() {
     <nav className="navbar is-transparent">
       <div className="navbar-menu is-active">
         <div className="navbar-end">
-          <NavLink to="/" end className="navbar-item" activeClassName="has-text-weight-bold">
+          <NavLink 
+            to="/" 
+            end 
+            className={({ isActive }) => 
+              `navbar-item ${isActive ? 'has-text-weight-bold has-text-link' : ''}`
+            }
+          >
             About Me
           </NavLink>
-          <NavLink to="/portfolio" className="navbar-item" activeClassName="has-text-weight-bold">
+          <NavLink 
+            to="/portfolio" 
+            className={({ isActive }) => 
+              `navbar-item ${isActive ? 'has-text-weight-bold has-text-link' : ''}`
+            }
+          >
             Portfolio
           </NavLink>
-          <NavLink to="/contact" className="navbar-item" activeClassName="has-text-weight-bold">
+          <NavLink 
+            to="/contact" 
+            className={({ isActive }) => 
+              `navbar-item ${isActive ? 'has-text-weight-bold has-text-link' : ''}`
+            }
+          >
             Contact
           </NavLink>
-          <NavLink to="/resume" className="navbar-item" activeClassName="has-text-weight-bold">
+          <NavLink 
+            to="/resume" 
+            className={({ isActive }) => 
+              `navbar-item ${isActive ? 'has-text-weight-bold has-text-link' : ''}`
+            }
+          >
             Resume
           </NavLink>
         </div>

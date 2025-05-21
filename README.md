@@ -11,6 +11,14 @@ A responsive, single-page React portfolio site featuring developer bio, project 
 
 ---
 
+## 📄 Resume
+
+The resume is downloadable from the app under the **Resume** section.
+
+Or [download it here](public/Emily_Holt_Resume_Styled.pdf).
+
+---
+
 ## ✅ Features
 
 - Fully responsive single-page application (SPA)
